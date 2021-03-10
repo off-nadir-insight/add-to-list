@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link href="addToList.css" rel="stylesheet" />
+  </head>
+  <body>
+    <input type="text" id="input" />
+    <button id="btn">Log input value</button>
+    <div id="radio-list">
+      <input
+        type="radio"
+        id="radio-left"
+        name="select-list"
+        value="left-list"
+        checked
+      />
+      <label for="radio-left">Left list</label>
+      <input
+        type="radio"
+        id="radio-right"
+        name="select-list"
+        value="right-list"
+      />
+      <label for="radio-right">Right list</label>
+    </div>
+    <div id="list-container">
+      <div id="container-left">
+        <h2>Left List</h2>
+        <ul id="left-list"></ul>
+      </div>
+      <div id="container-right">
+        <h2>Right List</h2>
+        <ul id="right-list"></ul>
+      </div>
+    </div>
+
+    <script src="addToList.js"></script>
+  </body>
+</html>
